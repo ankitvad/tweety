@@ -1,7 +1,7 @@
 tweety
 ======
 PS: the name tweety, and the logo of the Bird is not used as a copyright infrinegment, it is<br>
-merely used for the love of tweety, and it being a cute bird. The site/design is merely a construction for education<br>
+merely used for the love of tweety, and it being a cute bird. The site/design is merely a construction for education
 purposes and won't be used for any monetization.
 
 (The image as well as the name is the rightful property of its respective owner and/or creator/artist)<br>
@@ -70,5 +70,5 @@ CREATE TABLE UserAuth (
 );
 [/mysql]</pre>
 
-: A lot of help undeerstanding was taken, by the tutsplus tutorial, you should seriously<br>
+: A lot of help understanding was taken, by the tutsplus tutorial, you should seriously<br>
 check it out, it's awesome.( http://code.tutsplus.com/tutorials/building-ribbit-in-php--net-28802 )
