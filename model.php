@@ -5,7 +5,7 @@ class Model{
     private $db; // Holds mysqli Variable
     
     function __construct(){
-        $this->db = new mysqli('localhost', 'root', 'starlight1234', 'tweety');
+        $this->db = new mysqli('localhost', 'root', '', 'tweety');
     }
     
     //--- private function for performing standard SELECTs
