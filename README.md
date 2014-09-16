@@ -31,7 +31,7 @@ Inside are the Following Individual Tables along with their attributes:
 	<li>4) UserAuth - the table for holding the login authentications</li>
 </ul>
 
-<pre>[mysql]
+<pre>
 CREATE TABLE Users (
     id              INT NOT NULL AUTO_INCREMENT,
     username        VARCHAR(18) NOT NULL,
@@ -42,9 +42,9 @@ CREATE TABLE Users (
     gravatar_hash   VARCHAR(32),
     PRIMARY KEY(id, username)
 );
-[/mysql]</pre>
+</pre>
 
-<pre>[mysql]
+<pre>
 CREATE TABLE Ribbits (
     id            INT NOT NULL AUTO_INCREMENT,
     user_id       INT NOT NULL,
@@ -52,25 +52,22 @@ CREATE TABLE Ribbits (
     created_at    DATETIME,
     PRIMARY KEY(id, user_id)
 );
-[/mysql]</pre>
+</pre>
 
-<pre>[mysql]
+<pre>
 CREATE Table Follows (
     id            INT NOT NULL AUTO_INCREMENT,
     user_id       INT NOT NULL,
     followee_id   INT,
     PRIMARY KEY(id, user_id)
 );
-[/mysql]</pre>
+</pre>
 
-<pre>[mysql]
+<pre>
 CREATE TABLE UserAuth (
     id        INT NOT NULL AUTO_INCREMENT,
     hash      VARCHAR(52) NOT NULL,
     username  VARCHAR(18),
     PRIMARY KEY(id, hash)
 );
-[/mysql]</pre>
-
-: A lot of help understanding was taken, by the tutsplus tutorial, you should seriously<br>
-check it out, it's awesome.( http://code.tutsplus.com/tutorials/building-ribbit-in-php--net-28802 )
+</pre>
