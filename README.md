@@ -1,6 +1,6 @@
 tweety
 ======
-Live Version: tweety.gopagoda.com
+<strike>Live Version</strike>: <u>LIVE VERSION DIED; I think the site died.</u>
 
 PS: the name tweety, and the logo of the Bird is not used as a copyright infrinegment, it is<br>
 merely used for the love of tweety, and it being a cute bird. The site/design is merely a construction for education
